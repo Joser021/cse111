@@ -21,7 +21,7 @@ while True:
     Exceeding the Requirements
     """
     current_date = datetime.today()
-    current_date = (f"{current_date:%y-%m-%d}")
+    current_date = (f"{current_date:%Y-%m-%d}")
 
     with open("Volume.txt", "at") as volumes_file:
         print()
